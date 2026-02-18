@@ -1,7 +1,7 @@
 # IT Problems & Instant Diagnosis Table
 
-![IT Diagnosis Dashboard](https://raw.githubusercontent.com/tuleenitech/IT-Diagnosis-Table/Images/screenshot1.png)
-![Issue Details Expanded](https://raw.githubusercontent.com/tuleenitech/IT-Diagnosis-Table/Images/screenshot2.png)
+![IT Diagnosis Dashboard](https://github.com/tuleenitech/IT-Diagnosis-Table/Images/screenshot1.png)
+![Issue Details Expanded](https://github.com/tuleenitech/IT-Diagnosis-Table/Images/screenshot2.png)
 
 ## Overview
 
