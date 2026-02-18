@@ -1,10 +1,10 @@
 # IT Problems & Instant Diagnosis Table
 
-![IT Diagnosis Dashboard](https://github.com/tuleenitech/IT-Diagnosis-Table/blob/main/Images/Screenshot1.png)
+![IT Diagnosis Dashboard](https://github.com/JonasDeo/IT-Diagnosis-Table/blob/main/Images/Screenshot1.png)
 
 **Details Screen**
 
-![Issue Details Expanded](https://github.com/tuleenitech/IT-Diagnosis-Table/blob/main/Images/Screenshot2.png)
+![Issue Details Expanded](https://github.com/JonasDeo/IT-Diagnosis-Table/blob/main/Images/Screenshot2.png)
 
 ## Overview
 
@@ -20,7 +20,7 @@ This table consolidates over *a hundred real-world IT issues* across hardware, n
 
 You can view and interact with the hosted version of this project here:
 
-**Live Preview:** [https://tuleenitech.github.io/IT-Diagnosis-Table](https://tuleenitech.github.io/IT-Diagnosis-Table)
+**Live Preview:** [IT Diagnosis Table](https://JonasDeo.github.io/IT-Diagnosis-Table)
 
 > If the link doesn't work yet, ensure the repository's **GitHub Pages** setting is enabled with the `main` branch and `/ (root)` directory selected.
 
