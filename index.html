@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Problems & Instant Diagnosis Table</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+
+  <header class="header">
+    <div class="header-badge">IT SUPPORT REFERENCE</div>
+    <h1>Common IT Problems &<br>Instant Diagnosis Table</h1>
+    <p>50+ categorized issues — symptoms, diagnosis steps, and resolutions</p>
+  </header>
+
+  <div class="stats-bar">
+    <div class="stat-chip"><span id="total-count">100+</span> Total Issues</div>
+    <div class="stat-chip"><span>19</span> Categories</div>
+    <div class="stat-chip"><span>4</span> Severity Levels</div>
+    <div class="stat-chip">Click any row to expand full detail</div>
+  </div>
+
+  <div class="controls">
+    <div class="search-box">
+      <span class="search-icon">⌕</span>
+      <input type="text" id="search-input" placeholder="Search problems, symptoms, keywords...">
+    </div>
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="network">Network</button>
+    <button class="filter-btn" data-filter="hardware">Hardware</button>
+    <button class="filter-btn" data-filter="software">Software</button>
+    <button class="filter-btn" data-filter="os">OS</button>
+    <button class="filter-btn" data-filter="security">Security</button>
+    <button class="filter-btn" data-filter="perf">Performance</button>
+    <button class="filter-btn" data-filter="email">Email</button>
+    <button class="filter-btn" data-filter="printer">Printer</button>
+    <button class="filter-btn" data-filter="account">Account</button>
+    <button class="filter-btn" data-filter="storage">Storage</button>
+    <button class="filter-btn" data-filter="audio">Audio/Video</button>
+    <button class="filter-btn" data-filter="mobile">Mobile/MDM</button>
+    <button class="filter-btn" data-filter="remote">Remote Work</button>
+    <button class="filter-btn" data-filter="cloud">Cloud/M365</button>
+    <button class="filter-btn" data-filter="virt">Virtualization</button>
+    <button class="filter-btn" data-filter="teams">Teams/Collab</button>
+    <button class="filter-btn" data-filter="active">Active Directory</button>
+  </div>
+
+  <div class="result-count">Showing <span id="visible-count">50</span> of <span id="total-count-2">50</span> issues</div>
+
+  <div class="table-container">
+    <table id="main-table">
+      <thead>
+        <tr>
+          <th style="width:40px"></th>
+          <th class="col-cat" style="width:110px">CATEGORY</th>
+          <th class="col-sev" style="width:90px">SEVERITY</th>
+          <th class="col-prob">PROBLEM</th>
+          <th class="col-symptoms" style="width:200px">SYMPTOMS</th>
+          <th class="col-diag" style="width:220px">DIAGNOSIS STEPS</th>
+          <th class="col-resolution" style="width:200px">QUICK FIX</th>
+          <th class="col-time" style="width:90px">EST. TIME</th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+      </tbody>
+    </table>
+    <div class="empty-state" id="empty-state">
+      <h3>No Results Found</h3>
+      <p>Try a different search term or category filter</p>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
